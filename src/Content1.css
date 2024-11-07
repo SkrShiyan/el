@@ -1,0 +1,46 @@
+/* Container for Content1 */
+.Content1-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 800px; /* Adjusted max-width for better layout */
+  margin: auto;
+  background-color: #ffee8f;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 20px; /* Adds spacing between title and chart */
+}
+
+/* Left section with title */
+.Content1-left {
+  flex: 1;
+  text-align: center;
+}
+
+.Content1-title {
+  font-size: 32px;
+  color: #000000;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+/* Right section with chart */
+.Content1-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .Content1-container {
+    flex-direction: column;
+    padding: 15px;
+    max-width: 100%; /* Allows container to take full width on smaller screens */
+  }
+
+  .Content1-title {
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,16 @@
+
+/* Header container styling */
+.Header-container {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffee8f;
+  color: #006A67;
+}
+
+/* Title styling for header */
+.Header-title {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0;
+}
+
